@@ -1,6 +1,6 @@
 const assert = require('assert');
-const { greet } = require('./lib');
+const { salute } = require('./lib');
 
-assert.strictEqual(greet('world'), 'Hello, world');
+assert.strictEqual(salute('world'), 'Hello, world');
 
 console.log('ok: base checks passed');
