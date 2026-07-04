@@ -1,7 +1,7 @@
-const { greet } = require('./lib');
+const { salute } = require('./lib');
 
 function banner() {
-  return `${greet('team')}!`;
+  return `${salute('team')}!`;
 }
 
 module.exports = { banner };
